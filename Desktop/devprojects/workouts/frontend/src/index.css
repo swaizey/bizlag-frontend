@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style: none;
+    outline: none;
+    border: none;
+}
+body{
+    background-color: aliceblue;
+    
+}
+:root{
+--primary-color:rgb(44, 204, 44);
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+.btn-signIn{
+    background-color: var(--primary-color);
+    padding: .4rem;
+    border-radius: 6px;
+    color:white;
+}

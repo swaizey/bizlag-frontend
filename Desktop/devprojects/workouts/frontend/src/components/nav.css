@@ -1,0 +1,23 @@
+.nav{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: white;
+  
+}
+.nav .logo{
+    flex:1;
+    color: var(--primary-color);
+}
+.nav ul{
+    display:flex;
+}
+.nav li{
+    margin: 1rem;
+}
+.btn-signIn.logout{
+    background: white;
+    border: 1px solid rgb(32, 182, 32);
+    color: rgb(32, 182, 32);
+}

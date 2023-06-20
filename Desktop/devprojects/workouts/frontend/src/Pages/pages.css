@@ -1,0 +1,167 @@
+.App{
+    margin: 2rem;
+}
+.list{
+    background-color: white;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: 1px 1px 3px rgb(202, 193, 193);
+}
+.form-control{
+    width: 60%;
+    height: 70vh;
+    background: white;
+    margin: 2rem  auto;
+}
+.form-control form{
+    display: flex;
+    flex-direction: column;
+}
+.form-control form input{
+    height: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    border:1px solid rgb(218, 201, 201);
+}
+.form-control form textarea{
+    height: 8rem;
+    padding: 1rem;
+    margin: 1rem;
+    border:1px solid rgb(218, 201, 201);
+}
+.form-control form textarea:hover,
+.form-control form input:hover{
+    border: 1px solid var(--primary-color);
+}
+
+.form-control form button{
+    padding: .5rem;
+    border-radius: .2rem;
+    margin: 1rem;
+    color: white;
+    cursor: pointer;
+    background-color: var(--primary-color);
+}
+.form-control form button:disabled{
+    background-color: red;
+}
+.list-single{
+    width: 90%;
+    height: fit-content;
+    background-color: white;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+.list-single h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+.list-single h4{
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+.list-single .desc{
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+.list-single p{
+    margin-bottom: 3rem;
+}
+.btn{
+    padding: .5rem;
+    border-radius: .3rem;
+    color: white;
+    margin-right: 1rem;
+    font-weight: bold;
+}
+.btn.edit{
+    background-color: orange;
+}
+.btn.delete{
+    background-color: red;
+}
+.delete-text{
+    background-color: white;
+    color: green;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between
+}
+.btn-home{
+    justify-content: right;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+.form-control{
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-number{
+    flex: 1;
+}
+.btn-register{
+    background-color: var(--primary-color);
+    padding: .3rem;
+    color: white;
+}
+
+/* Error msg */
+.form-err input.error, .form-err textarea.error{
+    border: 1px solid rgb(209, 52, 52);
+}
+.erro-msg{
+    background-color:rgb(240, 214, 214);
+    border: 1px solid rgb(209, 52, 52);
+    border-radius: 6px;
+    padding: 1rem;
+    color: red;
+}
+
+/* Login form */
+.loginform{
+    height: 75vh;
+    width: 90%;
+    background-color: white;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-login input, .register input{
+    padding:1rem;
+    background-color: aliceblue;
+    border: none;
+}
+.form-login input, .form-login button{
+    width: 70%;
+    margin: 2rem;
+}
+.register{
+    width: 95%;
+    height: 70vh;
+    background-color: white;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
